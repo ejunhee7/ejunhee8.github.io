@@ -1,0 +1,367 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+    <title>Squirrel's Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+    <style type="text/css">
+        @import url(
+        https://fonts.googleapis.com/css?family=Lato:400,700
+        );
+
+        body {
+            background: #fff;
+            font-family: Lato, sans-serif;
+            margin: 0 0 80px;
+        }
+
+        a {
+            color: #2ecc71;
+        }
+
+        a:focus,
+        a:hover {
+            color: #f1c40f;
+            text-decoration: none;
+        }
+
+        p {
+            line-height: 1.5;
+            margin: 0;
+        }
+
+        p + p {
+            margin-top: 10px;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4 {
+            margin-top: 0
+        }
+
+        section {
+            margin-top: 30px;
+        }
+
+        li {
+            line-height: 1.8;
+            list-style: none;
+        }
+
+        li:before {
+            content: "\f052";
+            float: left;
+            font: 13px Octicons;
+            margin-top: 6px;
+            margin-left: -20px;
+            opacity: .1;
+            position: absolute;
+        }
+
+        blockquote {
+            border-left: 5px solid #e7e9ec;
+            font-size: 14px;
+        }
+
+        em {
+            color: #95a5a6;
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        h4 span:first-child {
+            color: #000;
+            font-weight: bold;
+        }
+
+        .container {
+            max-width: 750px;
+            padding: 0 30px;
+        }
+
+        .col-sm-6 {
+            margin-bottom: 10px;
+        }
+
+        .col-sm-12 h4 {
+            margin-top: 12px;
+        }
+
+        .col-sm-12 + .col-sm-12 {
+            margin-top: 30px;
+        }
+
+        #header {
+            background: #f4f6f6;
+            padding: 50px 0;
+            margin-bottom: 30px;
+        }
+
+        #header h2 {
+            color: #95a5a6;
+            font-size: 24px;
+        }
+
+        #content h3 {
+            color: #f1c40f;
+            font-size: 26px;
+            margin-top: -4px;
+        }
+
+        #content aside {
+            text-align: right;
+            padding-right: 30px;
+        }
+
+        #profiles .network {
+            text-transform: capitalize;
+        }
+
+        #work .position,
+        #volunteer .position {
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+
+        #education .area {
+            font-weight: bold;
+        }
+
+        #education .area:before {
+            content: "\f0d7";
+            font: 16px Octicons;
+            margin-right: 6px;
+        }
+
+        #education .studyType {
+            margin-left: 25px;
+        }
+
+        #awards .summary,
+        #publications .summary {
+            margin-top: 8px;
+        }
+
+        #publications .website a:before {
+            content: attr(href);
+        }
+
+        @media (min-width: 480px) {
+            .strike-through {
+                border-top: 1px solid #f4f6f6;
+                height: 20px;
+                margin-top: 12px;
+                margin-bottom: -2px;
+                position: relative;
+            }
+
+            .strike-through span,
+            .strike-through a {
+                background: #fff;
+                position: absolute;
+            }
+
+            .strike-through span:first-child {
+                padding-right: 20px;
+                margin-top: -12px;
+            }
+
+            .strike-through span + span {
+                font-size: 14px;
+                margin-top: -10px;
+                padding-left: 20px;
+                right: 0;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .col-sm-6:last-child {
+                margin-bottom: 0px;
+            }
+
+            #content aside {
+                margin-bottom: 20px;
+                padding-right: 0;
+                text-align: left;
+            }
+
+            #publications .website a:before {
+                content: "View publication";
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 26px;
+            }
+
+            .date {
+                font-size: 14px;
+                margin-bottom: 5px;
+            }
+
+            .strike-through span:first-child {
+                margin-bottom: 7px;
+            }
+
+            .strike-through span {
+                display: block;
+            }
+
+            #header {
+                margin-bottom: 10px;
+                padding: 40px 0;
+            }
+
+            #actions {
+                display: none;
+            }
+        }
+
+    </style>
+</head>
+<body>
+<header id="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-9 col-sm-push-3">
+                <h1>
+                    Lee Jun Yeal
+                </h1>
+                <h2>
+                    Programmer
+                </h2>
+            </div>
+        </div>
+    </div>
+</header>
+<div id="content" class="container">
+    <section id="contact" class="row">
+        <aside class="col-sm-3">
+            <h3>Contact</h3>
+        </aside>
+        <div class="col-sm-9">
+            <div class="row">
+                <div class="col-sm-6">
+                    <strong>Email</strong>
+                    <div class="email">wowsoft72@naver.com</div>
+                </div>
+                <div class="col-sm-6">
+                    <strong>Phone</strong>
+                    <div class="phone">(010) 3495-0631</div>
+                </div>
+                <div class="col-sm-6">
+                    <strong>Blog</strong>
+                    <div class="website">
+                        <a href="http://blog.naver.com/wowsoft72">http://blog.naver.com/wowsoft72</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="row">
+        <aside class="col-sm-3">
+            <h3>About</h3>
+        </aside>
+        <div class="col-sm-9">
+            <p>전시와 관련된 다양한 시스템을 개발하는 업체에서 연구소의 소장으로 근무하고 있으며
+               시스템과 관련된 H/W, 펌웨어 및 PC 기반 소프트웨어 개발등을 주로 하고 있음
+               전시 분야는 새로운 기술들이 한 발 앞서서 적용되는 경향이 있기 때문에 지속적으로
+               새로운 기술들에 대한 습득이 이루어져야 하는 만큼 어려움도 있지만 새로운걸 배우는
+               즐거움이 크기 때문에 재미를 갖고 일하고 있습니다</p>
+        </div>
+    </section>
+    <section id="profiles" class="row">
+        <aside class="col-sm-3">
+            <h3>Profiles</h3>
+        </aside>
+        <div class="col-sm-9">
+            <div class="row">
+                <div class="col-sm-6">
+                    <strong class="network">
+                        facebook
+                    </strong>
+                    <div class="username">
+                        <div class="url">
+                            <a href="https://www.facebook.com/junyeal.lee.9">https://www.facebook.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="work" class="row">
+        <aside class="col-sm-3">
+            <h3>Work</h3>
+        </aside>
+        <div class="col-sm-9">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="position">
+                        이노테크 미디어 연구소 소장
+                    </div>
+                    <div class="summary">
+                        <p>인터렉티브 시스템, 크로마키 시스템, 통합 제어 시스템 외 다수 개발 </p>
+                    </div>
+                    <h4>Highlights</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="education" class="row">
+        <aside class="col-sm-3">
+            <h3>Education</h3>
+        </aside>
+        <div class="col-sm-9">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h4 class="strike-through">
+                        University of Dankook
+                    </h4>
+                    <h4 class="keywords">
+                      Electronics
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="row">
+        <aside class="col-sm-3">
+            <h3>Skills</h3>
+        </aside>
+        <div class="col-sm-9">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="name">
+                        <h4>Development Languages</h4>
+                    </div>
+                    <ul class="keywords">
+                        <li>C</li>
+                        <li>C#</li>
+                        <li>WPF</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="interests" class="row">
+        <aside class="col-sm-3">
+            <h3>Interests</h3>
+        </aside>
+        <div class="col-sm-9">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="name">
+                        <h4>독서</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+</body>
+</html>
